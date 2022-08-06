@@ -1,0 +1,8 @@
+
+
+pub const GAME_AREA_WIDTH_UNITS: i32 = 40;
+pub const GAME_AREA_HEIGHT_UNITS: i32 = 30;
+pub const GAME_AREA_STEP: f32 = 20.0;
+pub const GAME_AREA_WIDTH: f32 = (GAME_AREA_WIDTH_UNITS + 1) as f32 * GAME_AREA_STEP;
+pub const GAME_AREA_HEIGHT: f32 = (GAME_AREA_HEIGHT_UNITS + 1) as f32 * GAME_AREA_STEP;
+pub const TIME_STEP: f32 = 5.0 / 60.0;
